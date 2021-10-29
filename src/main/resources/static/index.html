@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desafio Gama - Gestão de Cadastros</title>
+
+        <link rel="stylesheet" href="css/geral.css" >
+        <link rel="stylesheet" href="css/form.css" >
+    </head>
+
+    <body>
+
+        <div class="wrapper">
+
+
+            <header>
+                <nav>
+                    
+                    <a class="navbar-brand" href="/">
+                        <img    class="img-navbar" 
+                                src="https://xpcorp.gama.academy/assets/logo-nav-black-478b995c681064a54339fa14e4885288162d2cb9c6a8ddca326315622f0a25cf.svg" 
+                                alt="Logo nav black" />
+                    </a>       
+                    
+                </nav>
+            </header>
+
+            <div class="container">
+
+                <section class="titulo">        
+
+                    <div class="p-3 pb-md-4 mx-auto text-center">
+                        <h1 class="display-1  text-bold">Cadastro de Usuários </h1>                
+                    </div>
+
+                </section>
+            
+                <section>   
+
+                    <form id="formProduto" >
+                    
+                        <div class="card">
+                            
+                            <div class="card-container">
+                                
+                                <div class="row">
+
+                                        <div class="col">
+                                            <label for="txtCodigoProduto">Nome *:</label>
+                                            <input  type="text" 
+                                                    name="txtNome" 
+                                                    id="txtNome" 
+                                                    placeholder="Nome" 
+                                                    required >
+                                        </div>
+
+                                        <div class="col">
+                                            <label for="txtNomeProduto">Senha *:</label>
+                                            <input  type="text" 
+                                                    name="txtSenha" 
+                                                    id="txtSenha" 
+                                                    placeholder="Senha" 
+                                                    required > 
+                                        </div>
+
+                                </div>          
+                                
+                                <hr>
+
+                                <div class="flex-box">
+
+                                    <input  type="submit" 
+                                            value="Cadastrar"
+                                            class="btn btn-success text-bold flex-item" />
+
+                                </div>
+
+                            </div>                  
+
+                            
+                        </div>    
+
+                    </form>
+                </section>
+
+                <section>   
+
+                    <div class="card">
+
+                        <div class="p-3 pb-md-4 mx-auto text-center">
+                            <h3 class="text-bold">Usuários Cadastrados</h3>                
+                        </div>
+                            
+                        <table  id="tabela" 
+                                class="card-container">
+
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Nome</th>
+                                    <th>Senha</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </section>
+            
+            </div>
+
+            <footer>
+                
+                <div class="midias-socias">
+
+                    <div>
+                        <a class="icon-github" href="https://github.com/CarmoPJunior">GitHub</a>
+                    </div>
+
+                    <div>
+                        <a class="icon-linkedin" href="https://www.linkedin.com/in/carmo-goncalves-pereira-júnior-703b881a4/">Linkedin</a>
+                    </div>
+                </div>
+
+
+                <div class="text-autor">Desenvolvido por C.Júnior - 2021.</div>
+                
+            </footer>
+
+
+        </div>    
+        <script src="js/produto.js"></script>
+
+    </body>
+</html>
+
+

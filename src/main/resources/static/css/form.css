@@ -1,0 +1,61 @@
+
+input[type=text], input[type=number], input[type=email]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}  
+
+label {
+    padding: 10px 10px 10px 0;
+    display: inline-block;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col{
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 10px;;
+}
+
+
+
+/* Table */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+  
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+  
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+/* Flex Content */
+.flex-box {	
+	margin: 5px auto;
+	display: flex;
+    align-items: flex-start;
+}
+
+.flex-item {
+	margin: 5px;
+	padding: 10px;
+    flex: 1;
+}
